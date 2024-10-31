@@ -60,7 +60,6 @@ const Navbar = () => {
               Create an account
             </a>
                 </div>
-
             </div>
         )
         }
