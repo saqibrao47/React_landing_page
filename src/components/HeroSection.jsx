@@ -27,7 +27,16 @@ const HeroSection = () => {
             </a>
             
       </div>
-      
+      <div className="flex justify-center mt-10">
+        <video autoPlay loop muted className="rounded-lg w-1/2 border border-purple-700 shadow-purple-400 mx-2 my-4">
+        <source src={video1} type="video/mp4" />
+        </video>
+
+        <video autoPlay loop muted className="rounded-lg w-1/2 border border-purple-700 shadow-purple-400 mx-2 my-4">
+        <source src={video2} type="video/mp4" />
+        </video>
+
+      </div>
     </div>
   );
 };
