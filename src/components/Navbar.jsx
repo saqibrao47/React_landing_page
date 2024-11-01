@@ -1,6 +1,6 @@
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-import logo from "../assets/logo.jpg";
+import logo3 from "../assets/logo3.png";
 import { navItems } from "../constants";
 const Navbar = () => {
   const [mobileDrawerOpen, setMobileDrawerOpen] = useState(false);
@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="container px-4 m-auto relative text-sm">
         <div className="flex items-center justify-between">
           <div className="flex items-center flex-shrink-0">
-            <img className="w-10 h-10 mr-2" src={logo} alt="logo" />
+            <img className="w-16 h-16 mr-2" src={logo3} alt="logo" />
             <span className="text-xl tracking-tight">Rf_Tech</span>
           </div>
           <ul className="hidden lg:flex ml-14 space-x-12 ">
@@ -28,7 +28,7 @@ const Navbar = () => {
               Sign In
             </a>
             <a
-              className="bg-gradient-to-r from-purple-500 to-purple-800 py-2 px-3 border rounded-md"
+              className="bg-gradient-to-r from-blue-500 to-blue-800 py-2 px-3 border rounded-md"
               href="#"
             >
               Create an account
@@ -54,7 +54,7 @@ const Navbar = () => {
               Sign In
             </a>
             <a
-              className="bg-gradient-to-r from-purple-500 to-purple-800 py-2 px-3 border rounded-md"
+              className="bg-gradient-to-r from-blue-500 to-blue-800 py-2 px-3 border rounded-md"
               href="#"
             >
               Create an account
