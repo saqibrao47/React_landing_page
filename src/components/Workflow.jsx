@@ -10,7 +10,7 @@ const Workflow = () => {
           coding workflow
         </span>{" "}
       </h2>
-      <div className="flex flex-wrap justify-center">
+      <div className="flex flex-wrap justify-center mt-10">
         <div className="mt-2 w-full lg:w-1/2">
         <img src={codeimg} alt="code" />
         </div>
